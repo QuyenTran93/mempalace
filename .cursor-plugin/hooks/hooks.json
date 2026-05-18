@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "hooks": {
+    "stop": [{
+      "command": "${CURSOR_PLUGIN_ROOT}/hooks/mempal-stop-hook.sh",
+      "timeout": 30
+    }],
+    "preCompact": [{
+      "command": "${CURSOR_PLUGIN_ROOT}/hooks/mempal-precompact-hook.sh",
+      "timeout": 30
+    }]
+  }
+}

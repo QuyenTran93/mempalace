@@ -1,0 +1,14 @@
+---
+description: Query MemPalace before answering about past people, projects, or saved decisions — never guess
+alwaysApply: true
+---
+
+# MemPalace MCP
+
+**Never guess** stored facts — query first, then answer.
+
+- **Session start:** `mempalace_status` (overview + Memory Protocol).
+- **Before answering** about past people/projects/events/decisions, or time-sensitive facts (roles, relationships, status): `mempalace_kg_query` → `mempalace_search` → `mempalace_list_wings` / `mempalace_get_taxonomy` if wing/room unknown. If unsure, say "let me check the palace" and call a tool.
+- **Results:** quote drawers verbatim; cite wing/room/drawer id; do not paraphrase stored user content.
+- **Skip:** pure new-code/technical work with no mined history; user says don't use mempalace.
+- **Important session end:** `mempalace_diary_write` (if palace initialized).

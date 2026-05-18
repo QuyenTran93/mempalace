@@ -1,0 +1,24 @@
+{
+  "name": "mempalace",
+  "version": "3.3.5",
+  "description": "Give your AI a memory — mine projects and conversations into a searchable palace. 19 MCP tools, auto-save hooks, and guided setup.",
+  "author": {
+    "name": "milla-jovovich"
+  },
+  "license": "MIT",
+  "keywords": [
+    "memory",
+    "ai",
+    "rag",
+    "mcp",
+    "chromadb",
+    "palace",
+    "search"
+  ],
+  "repository": "https://github.com/MemPalace/mempalace",
+  "commands": "./commands/",
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json",
+  "mcpServers": "./mcp.json",
+  "rules": "./rules/"
+}
